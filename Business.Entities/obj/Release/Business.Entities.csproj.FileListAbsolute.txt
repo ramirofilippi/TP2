@@ -1,0 +1,5 @@
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Entities\bin\Release\Business.Entities.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Entities\bin\Release\Business.Entities.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Entities\obj\Release\Business.Entities.csproj.CoreCompileInputs.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Entities\obj\Release\Business.Entities.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Entities\obj\Release\Business.Entities.pdb

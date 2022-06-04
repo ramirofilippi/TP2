@@ -1,0 +1,2 @@
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\obj\Release\Business.Logic.csproj.AssemblyReference.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\obj\Release\Business.Logic.csproj.CoreCompileInputs.cache

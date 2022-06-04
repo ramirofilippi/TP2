@@ -1,0 +1,20 @@
+C:\Rami\AAA UTN\.NET\TP2Lab03_v1\TP2\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Rami\AAA UTN\.NET\TP2Lab03_v1\TP2\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Rami\AAA UTN\.NET\TP2Lab03_v1\TP2\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Rami\AAA UTN\.NET\TP2Lab03_v1\TP2\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Rami\AAA UTN\.NET\TP2Lab03_v1\TP2\Business.Logic\obj\Debug\Business.Logic.csproj.AssemblyReference.cache
+C:\Rami\AAA UTN\.NET\TP2Lab03_v1\TP2\Business.Logic\obj\Debug\Business.Logic.csproj.CoreCompileInputs.cache
+C:\Rami\AAA UTN\.NET\TP2Lab03_v1\TP2\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
+C:\Rami\AAA UTN\.NET\TP2Lab03_v1\TP2\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Rami\AAA UTN\.NET\TP2Lab03_v1\TP2\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\obj\Debug\Business.Logic.csproj.AssemblyReference.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\obj\Debug\Business.Logic.csproj.CoreCompileInputs.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\obj\Debug\Business.Logic.csproj.CopyComplete
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\bin\Debug\Data.Database.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Logic\bin\Debug\Data.Database.pdb

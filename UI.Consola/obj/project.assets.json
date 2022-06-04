@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Business.Entities/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Business.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.Entities.dll": {}
+        }
+      },
+      "Business.Logic/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Business.Entities": "1.0.0",
+          "Data.Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Business.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.Logic.dll": {}
+        }
+      },
+      "Data.Database/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Business.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Data.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.Database.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Business.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Business.Entities/Business.Entities.csproj",
+      "msbuildProject": "../Business.Entities/Business.Entities.csproj"
+    },
+    "Business.Logic/1.0.0": {
+      "type": "project",
+      "path": "../Business.Logic/Business.Logic.csproj",
+      "msbuildProject": "../Business.Logic/Business.Logic.csproj"
+    },
+    "Data.Database/1.0.0": {
+      "type": "project",
+      "path": "../Data.Database/Data.Database.csproj",
+      "msbuildProject": "../Data.Database/Data.Database.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Business.Entities >= 1.0.0",
+      "Business.Logic >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\UI.Consola\\UI.Consola.csproj",
+      "projectName": "UI.Consola",
+      "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\UI.Consola\\UI.Consola.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\UI.Consola\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj": {
+              "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj"
+            },
+            "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Logic\\Business.Logic.csproj": {
+              "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Logic\\Business.Logic.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

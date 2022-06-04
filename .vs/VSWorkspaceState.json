@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Business.Entities"
   ],
-  "SelectedNode": "\\TP2.sln",
+  "SelectedNode": "\\Business.Entities\\Business.Entities.csproj",
   "PreviewInSolutionExplorer": false
 }

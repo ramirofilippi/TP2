@@ -32,10 +32,10 @@ namespace Business.Entities
             set { _Apellido = value; }
         }
 
-        private string _Email;
-        public string Email {
-            get { return _Email; }
-            set { _Email = value; }
+        private string _EMail;
+        public string EMail {
+            get { return _EMail; }
+            set { _EMail = value; }
         }
 
         private bool _Habilitado;
