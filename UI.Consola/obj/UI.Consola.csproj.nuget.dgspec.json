@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\UI.Consola\\UI.Consola.csproj": {}
+    "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\UI.Consola\\UI.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj": {
+    "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Entities\\Business.Entities.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj",
+        "projectUniqueName": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Entities\\Business.Entities.csproj",
         "projectName": "Business.Entities",
-        "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj",
+        "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Entities\\Business.Entities.csproj",
         "frameworks": {
           "net461": {
             "projectReferences": {}
@@ -19,19 +19,19 @@
         "net461": {}
       }
     },
-    "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Logic\\Business.Logic.csproj": {
+    "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Logic\\Business.Logic.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Logic\\Business.Logic.csproj",
+        "projectUniqueName": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Logic\\Business.Logic.csproj",
         "projectName": "Business.Logic",
-        "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Logic\\Business.Logic.csproj",
+        "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Logic\\Business.Logic.csproj",
         "frameworks": {
           "net461": {
             "projectReferences": {
-              "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj": {
-                "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj"
+              "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Entities\\Business.Entities.csproj": {
+                "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Entities\\Business.Entities.csproj"
               },
-              "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Data.Database\\Data.Database.csproj": {
-                "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Data.Database\\Data.Database.csproj"
+              "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Data.Database\\Data.Database.csproj": {
+                "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Data.Database\\Data.Database.csproj"
               }
             }
           }
@@ -41,16 +41,16 @@
         "net461": {}
       }
     },
-    "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Data.Database\\Data.Database.csproj": {
+    "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Data.Database\\Data.Database.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Data.Database\\Data.Database.csproj",
+        "projectUniqueName": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Data.Database\\Data.Database.csproj",
         "projectName": "Data.Database",
-        "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Data.Database\\Data.Database.csproj",
+        "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Data.Database\\Data.Database.csproj",
         "frameworks": {
           "net461": {
             "projectReferences": {
-              "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj": {
-                "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj"
+              "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Entities\\Business.Entities.csproj": {
+                "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Entities\\Business.Entities.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         "net461": {}
       }
     },
-    "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\UI.Consola\\UI.Consola.csproj": {
+    "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\UI.Consola\\UI.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\UI.Consola\\UI.Consola.csproj",
+        "projectUniqueName": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\UI.Consola\\UI.Consola.csproj",
         "projectName": "UI.Consola",
-        "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\UI.Consola\\UI.Consola.csproj",
+        "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\UI.Consola\\UI.Consola.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\UI.Consola\\obj\\",
+        "outputPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\UI.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -90,11 +90,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj": {
-                "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Entities\\Business.Entities.csproj"
+              "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Entities\\Business.Entities.csproj": {
+                "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Entities\\Business.Entities.csproj"
               },
-              "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Logic\\Business.Logic.csproj": {
-                "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab04_v1\\TP2\\Business.Logic\\Business.Logic.csproj"
+              "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Logic\\Business.Logic.csproj": {
+                "projectPath": "C:\\Rami\\AAA UTN\\.NET\\Trabajo Practico\\TP2Lab05_v1\\TP2\\Business.Logic\\Business.Logic.csproj"
               }
             }
           }
