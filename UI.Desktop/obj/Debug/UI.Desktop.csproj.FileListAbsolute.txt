@@ -33,10 +33,12 @@ C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\bin\Debug\Busin
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\bin\Debug\Business.Logic.pdb
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\bin\Debug\Data.Database.pdb
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.AssemblyReference.cache
-C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.Form1.resources
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.Properties.Resources.resources
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.GenerateResource.cache
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CoreCompileInputs.cache
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CopyComplete
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.Usuarios.resources
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.ApplicationForm.resources
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab04_v1\TP2\UI.Desktop\obj\Debug\UI.Desktop.UsuarioDesktop.resources
