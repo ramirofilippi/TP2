@@ -16,7 +16,14 @@ namespace UI.Desktop
     {
         public PlanDesktop()
         {
+            
             InitializeComponent();
+            EspecialidadLogic esp = new EspecialidadLogic();
+            List<Especialidad> especialidades = esp.GetAll();
+            foreach(Especialidad e in especialidades)
+            {
+                cmbIdEspecialidad.Items.Add(e.ID);
+            }
         }
         private Plan _PlanActual;
         public Plan PlanActual {
@@ -38,7 +45,7 @@ namespace UI.Desktop
         {
             this.txtID.Text = this.PlanActual.ID.ToString();
             this.txtDescripcion.Text = this.PlanActual.Descripcion;
-            this.txtIdEspecialidad.Text = this.PlanActual.IDEspecialidad.ToString();
+            this.cmbIdEspecialidad.Text = this.PlanActual.IDEspecialidad.ToString();
             switch (this.Modo)
             {
                 case ApplicationForm.ModoForm.Alta:
@@ -62,21 +69,21 @@ namespace UI.Desktop
             {
                 case ApplicationForm.ModoForm.Alta:
                     plan.Descripcion = this.txtDescripcion.Text;
-                    plan.IDEspecialidad = int.Parse(this.txtIdEspecialidad.Text);
+                    plan.IDEspecialidad = int.Parse(this.cmbIdEspecialidad.Text);
                     plan.State = BusinessEntity.States.New;
                     PlanActual = plan;
                     break;
                 case ApplicationForm.ModoForm.Modificacion:
                     plan.ID = int.Parse(this.txtID.Text);
                     plan.Descripcion = this.txtDescripcion.Text;
-                    plan.IDEspecialidad = int.Parse(this.txtIdEspecialidad.Text);
+                    plan.IDEspecialidad = int.Parse(this.cmbIdEspecialidad.Text);
                     plan.State = BusinessEntity.States.Modified;
                     PlanActual = plan;
                     break;
                 case ApplicationForm.ModoForm.Baja:
                     plan.ID = int.Parse(this.txtID.Text);
                     plan.Descripcion = this.txtDescripcion.Text;
-                    plan.IDEspecialidad = int.Parse(this.txtIdEspecialidad.Text);
+                    plan.IDEspecialidad = int.Parse(this.cmbIdEspecialidad.Text);
                     plan.State = BusinessEntity.States.Deleted;
                     PlanActual = plan;
                     break;
@@ -87,7 +94,7 @@ namespace UI.Desktop
         }
         public new bool Validar()
         {
-            if (this.txtDescripcion.Text.Trim() == null || this.txtIdEspecialidad.Text.ToString().Trim() == null)
+            if (this.txtDescripcion.Text.Trim() == null || this.cmbIdEspecialidad.Text.ToString().Trim() == null)
             {
                 Notificar("Error al ingresar el dato", "La descripcion o el id de Especialidad ingrsada no pueden ser vacias", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;

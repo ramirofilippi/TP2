@@ -37,7 +37,7 @@ namespace UI.Desktop
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.lIdEspecialidad = new System.Windows.Forms.Label();
-            this.txtIdEspecialidad = new System.Windows.Forms.TextBox();
+            this.cmbIdEspecialidad = new System.Windows.Forms.ComboBox();
             this.tlEspecialidadDesktop.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +47,7 @@ namespace UI.Desktop
             this.tlEspecialidadDesktop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.06773F));
             this.tlEspecialidadDesktop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.93227F));
             this.tlEspecialidadDesktop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 95F));
-            this.tlEspecialidadDesktop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 241F));
+            this.tlEspecialidadDesktop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243F));
             this.tlEspecialidadDesktop.Controls.Add(this.lID, 0, 0);
             this.tlEspecialidadDesktop.Controls.Add(this.lDescripcion, 2, 0);
             this.tlEspecialidadDesktop.Controls.Add(this.txtID, 1, 0);
@@ -55,7 +55,7 @@ namespace UI.Desktop
             this.tlEspecialidadDesktop.Controls.Add(this.btnAceptar, 2, 2);
             this.tlEspecialidadDesktop.Controls.Add(this.btnCancelar, 3, 2);
             this.tlEspecialidadDesktop.Controls.Add(this.lIdEspecialidad, 0, 1);
-            this.tlEspecialidadDesktop.Controls.Add(this.txtIdEspecialidad, 1, 1);
+            this.tlEspecialidadDesktop.Controls.Add(this.cmbIdEspecialidad, 1, 1);
             this.tlEspecialidadDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlEspecialidadDesktop.Location = new System.Drawing.Point(0, 0);
             this.tlEspecialidadDesktop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -81,7 +81,7 @@ namespace UI.Desktop
             // 
             this.lDescripcion.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lDescripcion.AutoSize = true;
-            this.lDescripcion.Location = new System.Drawing.Point(370, 25);
+            this.lDescripcion.Location = new System.Drawing.Point(368, 25);
             this.lDescripcion.Name = "lDescripcion";
             this.lDescripcion.Size = new System.Drawing.Size(82, 17);
             this.lDescripcion.TabIndex = 3;
@@ -100,7 +100,7 @@ namespace UI.Desktop
             // txtDescripcion
             // 
             this.txtDescripcion.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtDescripcion.Location = new System.Drawing.Point(465, 22);
+            this.txtDescripcion.Location = new System.Drawing.Point(463, 22);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(219, 22);
@@ -108,7 +108,7 @@ namespace UI.Desktop
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(370, 117);
+            this.btnAceptar.Location = new System.Drawing.Point(368, 117);
             this.btnAceptar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(84, 28);
@@ -120,7 +120,7 @@ namespace UI.Desktop
             // btnCancelar
             // 
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelar.Location = new System.Drawing.Point(465, 117);
+            this.btnCancelar.Location = new System.Drawing.Point(463, 117);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(80, 28);
@@ -140,14 +140,15 @@ namespace UI.Desktop
             this.lIdEspecialidad.TabIndex = 6;
             this.lIdEspecialidad.Text = "ID Especialidad";
             // 
-            // txtIdEspecialidad
+            // cmbIdEspecialidad
             // 
-            this.txtIdEspecialidad.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.txtIdEspecialidad.Location = new System.Drawing.Point(125, 80);
-            this.txtIdEspecialidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtIdEspecialidad.Name = "txtIdEspecialidad";
-            this.txtIdEspecialidad.Size = new System.Drawing.Size(232, 22);
-            this.txtIdEspecialidad.TabIndex = 7;
+            this.cmbIdEspecialidad.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.cmbIdEspecialidad.FormattingEnabled = true;
+            this.cmbIdEspecialidad.Location = new System.Drawing.Point(124, 79);
+            this.cmbIdEspecialidad.Name = "cmbIdEspecialidad";
+            this.cmbIdEspecialidad.Size = new System.Drawing.Size(233, 24);
+            this.cmbIdEspecialidad.TabIndex = 8;
+            this.cmbIdEspecialidad.Text = "Elija el ID de la Especialidad";
             // 
             // PlanDesktop
             // 
@@ -158,7 +159,7 @@ namespace UI.Desktop
             this.ClientSize = new System.Drawing.Size(704, 155);
             this.Controls.Add(this.tlEspecialidadDesktop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PlanDesktop";
@@ -180,6 +181,6 @@ namespace UI.Desktop
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label lIdEspecialidad;
-        private System.Windows.Forms.TextBox txtIdEspecialidad;
+        private System.Windows.Forms.ComboBox cmbIdEspecialidad;
     }
 }
