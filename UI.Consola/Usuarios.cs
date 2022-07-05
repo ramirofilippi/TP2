@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using Business.Entities;
 using Business.Logic;
+using Data.Database;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace UI.Consola
 {
@@ -93,6 +96,7 @@ namespace UI.Consola
             catch (FormatException fe)
             {
                 Console.WriteLine();
+                Console.WriteLine(fe.Message);
                 Console.WriteLine("La ID ingresada debe ser un numero entero");
             }
             catch (Exception e)
@@ -134,6 +138,7 @@ namespace UI.Consola
             catch (FormatException fe)
             {
                 Console.WriteLine();
+                Console.WriteLine(fe.Message);
                 Console.WriteLine("La ID ingresada debe ser un numero entero");
             }
             catch (Exception e)
@@ -174,6 +179,7 @@ namespace UI.Consola
             catch (FormatException fe)
             {
                 Console.WriteLine();
+                Console.WriteLine(fe.Message);
                 Console.WriteLine("La ID ingresada debe ser un numero entero");
             }
             catch (Exception e)
@@ -200,6 +206,7 @@ namespace UI.Consola
             catch (FormatException fe)
             {
                 Console.WriteLine();
+                Console.WriteLine(fe.Message);
                 Console.WriteLine("La ID ingresada debe ser un numero entero");
             }
             catch (Exception e)

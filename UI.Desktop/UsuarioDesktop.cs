@@ -36,7 +36,7 @@ namespace UI.Desktop
             get { return _UsuarioActual; }
             set { _UsuarioActual = value; }
         }
-        public virtual new void MapearDeDatos() 
+        public new void MapearDeDatos() 
         {
             this.txtID.Text = this.UsuarioActual.ID.ToString();
             this.chkHabilitado.Checked = this.UsuarioActual.Habilitado;
@@ -61,13 +61,12 @@ namespace UI.Desktop
                     break;
             }
         }
-        public virtual new void MapearADatos()
+        public new void MapearADatos()
         {
             Usuario usuario = new Usuario();
             switch (this.Modo)
             {
                 case ApplicationForm.ModoForm.Alta:
-                    
                     usuario.Nombre = this.txtNombre.Text;
                     usuario.Apellido = this.txtApellido.Text;
                     usuario.Clave = this.txtClave.Text;
@@ -79,6 +78,7 @@ namespace UI.Desktop
                     UsuarioActual = usuario;
                     break;
                 case ApplicationForm.ModoForm.Modificacion:
+                    usuario.ID = int.Parse(this.txtID.Text);
                     usuario.Nombre = this.txtNombre.Text;
                     usuario.Apellido = this.txtApellido.Text;
                     usuario.Clave = this.txtClave.Text;
@@ -90,23 +90,32 @@ namespace UI.Desktop
                     UsuarioActual = usuario;
                     break;
                 case ApplicationForm.ModoForm.Baja:
+                    usuario.ID = int.Parse(this.txtID.Text);
+                    usuario.Nombre = this.txtNombre.Text;
+                    usuario.Apellido = this.txtApellido.Text;
+                    usuario.Clave = this.txtClave.Text;
+                    usuario.EMail = this.txtEmail.Text;
+                    usuario.Habilitado = this.chkHabilitado.Checked;
+                    usuario.Nombre = this.txtNombre.Text;
+                    usuario.NombreUsuario = this.txtUsuario.Text;
                     usuario.State = BusinessEntity.States.Deleted;
+                    UsuarioActual = usuario;
                     break;
                 case ApplicationForm.ModoForm.Consulta:
                     break;
-                default:  break;
 
             }
         }
-        public new virtual void GuardarCambios() 
+        public new void GuardarCambios() 
         {
             MapearADatos();
             UsuarioLogic usuario = new UsuarioLogic();
             usuario.Save(UsuarioActual);
         }
-        public virtual new bool Validar() 
+        public new bool Validar() 
         {
-            if (this.txtApellido.Text.Trim() == null || this.txtNombre.Text.Trim() == null || this.txtClave.Text.Trim() == null || this.txtConfirmarClave.Text.Trim() == null || this.txtEmail.Text.Trim() == null || this.txtUsuario.Text.Trim() == null || this.txtClave.Text != this.txtConfirmarClave.Text || this.txtClave.Text.Length < 8 || (this.txtEmail.Text.Contains("@") == false))
+            UsuarioLogic usuario = new UsuarioLogic();
+            if (this.txtApellido.Text.Trim() == null || this.txtNombre.Text.Trim() == null || this.txtClave.Text.Trim() == null || this.txtConfirmarClave.Text.Trim() == null || usuario.VerificaMail(this.txtEmail.Text) == false || this.txtUsuario.Text.Trim() == null || this.txtClave.Text != this.txtConfirmarClave.Text || this.txtClave.Text.Length < 8)
             {
                 Notificar("Error al ingresar algun dato","Falta algun dato o la confirmacion de la contraseña no coincide o la contraseña es muy corta o el mail no es valido", MessageBoxButtons.OK,MessageBoxIcon.Warning);
                 return false;
@@ -121,7 +130,7 @@ namespace UI.Desktop
         {
             MessageBox.Show(mensaje, titulo, botones, icono);
         }
-        public void Notificar(string mensaje, MessageBoxButtons botones,
+        public new void Notificar(string mensaje, MessageBoxButtons botones,
         MessageBoxIcon icono)
         {
             this.Notificar(this.Text, mensaje, botones, icono);

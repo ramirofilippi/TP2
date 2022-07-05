@@ -56,7 +56,7 @@ namespace UI.Desktop
             this.tlUsuarioDesktop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.71658F));
             this.tlUsuarioDesktop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 81.28342F));
             this.tlUsuarioDesktop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 117F));
-            this.tlUsuarioDesktop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 259F));
+            this.tlUsuarioDesktop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 260F));
             this.tlUsuarioDesktop.Controls.Add(this.lId, 0, 0);
             this.tlUsuarioDesktop.Controls.Add(this.txtID, 1, 0);
             this.tlUsuarioDesktop.Controls.Add(this.txtNombre, 1, 1);
@@ -97,7 +97,7 @@ namespace UI.Desktop
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(73, 3);
+            this.txtID.Location = new System.Drawing.Point(72, 3);
             this.txtID.Name = "txtID";
             this.txtID.ReadOnly = true;
             this.txtID.Size = new System.Drawing.Size(297, 22);
@@ -105,42 +105,42 @@ namespace UI.Desktop
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(73, 45);
+            this.txtNombre.Location = new System.Drawing.Point(72, 45);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(297, 22);
             this.txtNombre.TabIndex = 2;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(73, 89);
+            this.txtEmail.Location = new System.Drawing.Point(72, 89);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(297, 22);
             this.txtEmail.TabIndex = 3;
             // 
             // txtClave
             // 
-            this.txtClave.Location = new System.Drawing.Point(73, 130);
+            this.txtClave.Location = new System.Drawing.Point(72, 130);
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(297, 22);
             this.txtClave.TabIndex = 4;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(493, 45);
+            this.txtApellido.Location = new System.Drawing.Point(492, 45);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(253, 22);
             this.txtApellido.TabIndex = 5;
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(493, 89);
+            this.txtUsuario.Location = new System.Drawing.Point(492, 89);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(253, 22);
             this.txtUsuario.TabIndex = 6;
             // 
             // txtConfirmarClave
             // 
-            this.txtConfirmarClave.Location = new System.Drawing.Point(493, 130);
+            this.txtConfirmarClave.Location = new System.Drawing.Point(492, 130);
             this.txtConfirmarClave.Name = "txtConfirmarClave";
             this.txtConfirmarClave.Size = new System.Drawing.Size(253, 22);
             this.txtConfirmarClave.TabIndex = 7;
@@ -148,7 +148,7 @@ namespace UI.Desktop
             // chkHabilitado
             // 
             this.chkHabilitado.AutoSize = true;
-            this.chkHabilitado.Location = new System.Drawing.Point(376, 3);
+            this.chkHabilitado.Location = new System.Drawing.Point(375, 3);
             this.chkHabilitado.Name = "chkHabilitado";
             this.chkHabilitado.Size = new System.Drawing.Size(93, 21);
             this.chkHabilitado.TabIndex = 8;
@@ -157,7 +157,7 @@ namespace UI.Desktop
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(376, 176);
+            this.btnAceptar.Location = new System.Drawing.Point(375, 176);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 9;
@@ -167,7 +167,8 @@ namespace UI.Desktop
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(493, 176);
+            this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnCancelar.Location = new System.Drawing.Point(492, 176);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 10;
@@ -205,7 +206,7 @@ namespace UI.Desktop
             // lApellido
             // 
             this.lApellido.AutoSize = true;
-            this.lApellido.Location = new System.Drawing.Point(376, 42);
+            this.lApellido.Location = new System.Drawing.Point(375, 42);
             this.lApellido.Name = "lApellido";
             this.lApellido.Size = new System.Drawing.Size(58, 17);
             this.lApellido.TabIndex = 14;
@@ -214,7 +215,7 @@ namespace UI.Desktop
             // lUsuario
             // 
             this.lUsuario.AutoSize = true;
-            this.lUsuario.Location = new System.Drawing.Point(376, 86);
+            this.lUsuario.Location = new System.Drawing.Point(375, 86);
             this.lUsuario.Name = "lUsuario";
             this.lUsuario.Size = new System.Drawing.Size(57, 17);
             this.lUsuario.TabIndex = 15;
@@ -223,7 +224,7 @@ namespace UI.Desktop
             // lConfirmarClave
             // 
             this.lConfirmarClave.AutoSize = true;
-            this.lConfirmarClave.Location = new System.Drawing.Point(376, 127);
+            this.lConfirmarClave.Location = new System.Drawing.Point(375, 127);
             this.lConfirmarClave.Name = "lConfirmarClave";
             this.lConfirmarClave.Size = new System.Drawing.Size(108, 17);
             this.lConfirmarClave.TabIndex = 16;
@@ -231,11 +232,17 @@ namespace UI.Desktop
             // 
             // UsuarioDesktop
             // 
+            this.AcceptButton = this.btnAceptar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnCancelar;
             this.ClientSize = new System.Drawing.Size(750, 224);
             this.Controls.Add(this.tlUsuarioDesktop);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "UsuarioDesktop";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuario";
             this.tlUsuarioDesktop.ResumeLayout(false);
             this.tlUsuarioDesktop.PerformLayout();

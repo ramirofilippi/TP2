@@ -19,3 +19,45 @@ C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\UI.Consola\obj\Debug\netco
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.dll
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.pdb
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.genruntimeconfig.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.exe
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.deps.json
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.runtimeconfig.json
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.runtimeconfig.dev.json
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Business.Entities.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Business.Logic.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Data.Database.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Business.Entities.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Business.Logic.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Data.Database.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.csproj.AssemblyReference.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.AssemblyInfoInputs.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.AssemblyInfo.cs
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.csproj.CoreCompileInputs.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.csproj.CopyComplete
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.genruntimeconfig.cache
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.exe
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.deps.json
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.runtimeconfig.json
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.runtimeconfig.dev.json
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.dll
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\UI.Consola.pdb
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Business.Entities.dll
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Business.Logic.dll
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Data.Database.dll
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Business.Entities.pdb
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Business.Logic.pdb
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\bin\Debug\netcoreapp3.1\Data.Database.pdb
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.csproj.AssemblyReference.cache
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.AssemblyInfoInputs.cache
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.AssemblyInfo.cs
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.csproj.CoreCompileInputs.cache
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.csproj.CopyComplete
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.dll
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.pdb
+C:\net\tp2 Filippi\TP2Lab05_v1\TP2\UI.Consola\obj\Debug\netcoreapp3.1\UI.Consola.genruntimeconfig.cache

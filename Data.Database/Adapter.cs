@@ -8,7 +8,7 @@ namespace Data.Database
 {
     public class Adapter
     {
-        private SqlConnection sqlConnection = new SqlConnection("ConnectionString;");
+        //private SqlConnection sqlConnection = new SqlConnection("ConnectionString;");
         //Clave por defecto a utlizar para la cadena de conexion
         const string consKeyDefaultCnnString = "ConnStringLocal";
 
@@ -20,8 +20,8 @@ namespace Data.Database
         }
         protected void OpenConnection()
         {
-            string connectionString = ConfigurationManager.ConnectionStrings[consKeyDefaultCnnString].ConnectionString;
-            sqlConn = new SqlConnection();
+            string ConnectionString = ConfigurationManager.ConnectionStrings[consKeyDefaultCnnString].ConnectionString;
+            sqlConn = new SqlConnection(ConnectionString);
             sqlConn.Open();
         }
 

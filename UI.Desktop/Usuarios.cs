@@ -20,10 +20,19 @@ namespace UI.Desktop
             this.dgvUsuarios.AutoGenerateColumns = false;
         }
 
-        private void Listar()
+        public void Listar()
         {
             UsuarioLogic usuario = new UsuarioLogic();
-            this.dgvUsuarios.DataSource = usuario.GetAll();
+            try
+            {
+                this.dgvUsuarios.DataSource = usuario.GetAll();
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+                //MessageBox.Show("Ha habido un error en la carga del listado", "No se pudo cargar el listado", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         private void Usuarios_Load(object sender, EventArgs e)
@@ -50,7 +59,7 @@ namespace UI.Desktop
 
         private void tsbEliminar_Click(object sender, EventArgs e)
         {
-            int ID = ((Business.Entities.Usuario)this.dgvUsuarios.SelectedRows[0].DataBoundItem).ID;
+            int ID = ((Usuario)this.dgvUsuarios.SelectedRows[0].DataBoundItem).ID;
             UsuarioDesktop formUsuario = new UsuarioDesktop(ID,ApplicationForm.ModoForm.Baja);
             if (this.dgvUsuarios.SelectedRows != null)
             {
@@ -74,7 +83,7 @@ namespace UI.Desktop
             }
             else
             {
-                MessageBox.Show("Debe selccionar una fila para poder realizar esta acción", "No se pudo elimiar al usuario", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Debe selccionar una fila para poder realizar esta acción", "No se pudo editar al usuario", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
