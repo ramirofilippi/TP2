@@ -88,3 +88,30 @@ C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.De
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CopyComplete
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\bin\Debug\UI.Desktop.exe
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\bin\Debug\UI.Desktop.pdb
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\bin\Debug\Business.Entities.dll
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\bin\Debug\Business.Logic.dll
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\bin\Debug\Data.Database.dll
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\bin\Debug\Business.Entities.pdb
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\bin\Debug\Business.Logic.pdb
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\bin\Debug\Data.Database.pdb
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.AssemblyReference.cache
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.ApplicationForm.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.EspecialidadDesktop.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.Especialidades.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.LogIn.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.Menu.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.ModuloDesktop.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.Modulos.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.PlanDesktop.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.Planes.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.UsuarioDesktop.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.Usuarios.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.Properties.Resources.resources
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.GenerateResource.cache
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CoreCompileInputs.cache
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CopyComplete
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
+C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb
