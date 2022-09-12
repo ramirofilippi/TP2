@@ -115,30 +115,3 @@ C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CoreCo
 C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CopyComplete
 C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
 C:\net\tp2 Filippi\TP2Lab05_v2\TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb
-F:\TP2Lab05_v3\TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
-F:\TP2Lab05_v3\TP2\UI.Desktop\bin\Debug\UI.Desktop.exe
-F:\TP2Lab05_v3\TP2\UI.Desktop\bin\Debug\UI.Desktop.pdb
-F:\TP2Lab05_v3\TP2\UI.Desktop\bin\Debug\Business.Entities.dll
-F:\TP2Lab05_v3\TP2\UI.Desktop\bin\Debug\Business.Logic.dll
-F:\TP2Lab05_v3\TP2\UI.Desktop\bin\Debug\Data.Database.dll
-F:\TP2Lab05_v3\TP2\UI.Desktop\bin\Debug\Business.Entities.pdb
-F:\TP2Lab05_v3\TP2\UI.Desktop\bin\Debug\Business.Logic.pdb
-F:\TP2Lab05_v3\TP2\UI.Desktop\bin\Debug\Data.Database.pdb
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.AssemblyReference.cache
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.ApplicationForm.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.EspecialidadDesktop.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.Especialidades.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.LogIn.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.Menu.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.ModuloDesktop.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.Modulos.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.PlanDesktop.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.Planes.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.UsuarioDesktop.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.Usuarios.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.Properties.Resources.resources
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.GenerateResource.cache
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CoreCompileInputs.cache
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.CopyComplete
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
-F:\TP2Lab05_v3\TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb
