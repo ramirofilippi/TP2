@@ -6,13 +6,14 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-</head>
+    </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:GridView ID="grdUsuarios" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="odsUsuarios" ShowFooter="True">
+            <asp:GridView ID="grdUsuarios" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="odsUsuarios" ShowFooter="True" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical" OnRowCommand="grdUsuarios_RowCommand" Width="1198px">
+                <AlternatingRowStyle BackColor="#CCCCCC" />
                 <Columns>
-                    <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
+                    <asp:CommandField ShowDeleteButton="True" />
                     <asp:TemplateField HeaderText="ID" SortExpression="ID">
                         <EditItemTemplate>
                             <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("ID") %>'></asp:TextBox>
@@ -90,11 +91,69 @@
                             <asp:CheckBox ID="CheckBox1" runat="server" Checked='<%# Bind("Habilitado") %>' Enabled="false" />
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:BoundField DataField="State" HeaderText="State" SortExpression="State" />
+                    <asp:HyperLinkField DataNavigateUrlFields="ID" DataNavigateUrlFormatString="ListaUsuarios.aspx?ID={0}" Text="Editar" />
                 </Columns>
+                <FooterStyle BackColor="#CCCCCC" />
+                <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+                <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
+                <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+                <SortedAscendingCellStyle BackColor="#F1F1F1" />
+                <SortedAscendingHeaderStyle BackColor="#808080" />
+                <SortedDescendingCellStyle BackColor="#CAC9C9" />
+                <SortedDescendingHeaderStyle BackColor="#383838" />
             </asp:GridView>
             <asp:ObjectDataSource ID="odsUsuarios" runat="server" DataObjectTypeName="Business.Entities.Usuario" DeleteMethod="Save" InsertMethod="Save" SelectMethod="GetAll" TypeName="Business.Logic.UsuarioLogic" UpdateMethod="Save"></asp:ObjectDataSource>
         </div>
+        <table border="1">
+            <tr>
+                <td align="center" colspan="2">
+                    <asp:Label ID="lblAccion" runat="server" Text="Label"></asp:Label></td>
+            </tr>
+            <tr>
+                <td style="width: 150px" align="right">
+                    Apellido:</td>
+                <td>
+                    <asp:TextBox ID="txtApellido" runat="server"></asp:TextBox></td>
+            </tr>
+            <tr>
+                <td style="width: 150px" align="right">
+                    Nombre:</td>
+                
+                <td>
+                    &nbsp;<asp:TextBox ID="txtNombre" runat="server"></asp:TextBox></td>
+            </tr>
+            <tr>
+                <td style="width: 150px" align="right">
+                    Email:</td>
+                <td>
+                    <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox></td>
+            </tr>
+            <tr>
+                <td style="width: 150px" align="right">
+                    Nombre de Usuario:</td>
+                <td>
+                    <asp:TextBox ID="txtNombreUsuario" runat="server"></asp:TextBox></td>
+            </tr>
+            <tr>
+                <td style="width: 150px" align="right">
+                    Clave:</td>
+                <td>
+                    <asp:TextBox ID="txtClave" runat="server" TextMode="Password"></asp:TextBox></td>
+            </tr>
+            <tr>
+                <td style="width: 150px" align="right">
+                    Confirmar Clave:</td>
+                <td>
+                    <asp:TextBox ID="txtConfirmarClave" runat="server" TextMode="Password"></asp:TextBox></td>
+            </tr>
+            <tr>
+                <td style="width: 150px" align="center">
+                    <asp:Button ID="btnGuardar" runat="server" Text="Guardar" /></td>
+                <td align="center">
+                    <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" /></td>
+            </tr>
+        </table>
+
     </form>
 </body>
 </html>
