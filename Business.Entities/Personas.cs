@@ -13,6 +13,13 @@ namespace Business.Entities
             this.TipoPersona = TiposPersonas.New;
         }
 
+        private string _Nombre;
+        public string Nombre
+        {
+            get { return _Nombre; }
+            set { _Nombre = value; }
+        }
+
         private string _Apellido;
         public string Apellido {
             get { return _Apellido; }
@@ -40,19 +47,13 @@ namespace Business.Entities
         private int _IDPlan;
         public int IDPlan {
             get { return _IDPlan; }
-            set { IDPlan = value; }
+            set { _IDPlan = value; }
         }
 
         private int _Legajo;
         public int Legajo {
             get { return _Legajo; }
             set { _Legajo = value; }
-        }
-
-        private string _Nombre;
-        public string Nombre {
-            get { return _Nombre; }
-            set { _Nombre = value; }
         }
 
         private string _Telefono;

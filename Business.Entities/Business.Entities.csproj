@@ -46,7 +46,7 @@
     <Compile Include="BusinessEntity.cs" />
     <Compile Include="Comision.cs" />
     <Compile Include="Curso.cs" />
-    <Compile Include="DoncenteCurso.cs" />
+    <Compile Include="DocenteCurso.cs" />
     <Compile Include="Especialidad.cs" />
     <Compile Include="Materia.cs" />
     <Compile Include="Modulo.cs" />

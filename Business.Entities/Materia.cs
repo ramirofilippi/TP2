@@ -29,7 +29,7 @@ namespace Business.Entities
         private int _IDPlan;
         public int IDPlan {
             get { return _IDPlan; }
-            set { IDPlan = value; }
+            set { _IDPlan = value; }
         }
     }
 }

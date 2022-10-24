@@ -16,3 +16,9 @@ C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Entities\obj\Debu
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Entities\obj\Debug\Business.Entities.dll
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Entities\obj\Debug\Business.Entities.pdb
 C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab03_v1\TP2\Business.Entities\obj\Debug\Business.Entities.csproj.AssemblyReference.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab06_v1\TP2\Business.Entities\bin\Debug\Business.Entities.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab06_v1\TP2\Business.Entities\bin\Debug\Business.Entities.pdb
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab06_v1\TP2\Business.Entities\obj\Debug\Business.Entities.csproj.AssemblyReference.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab06_v1\TP2\Business.Entities\obj\Debug\Business.Entities.csproj.CoreCompileInputs.cache
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab06_v1\TP2\Business.Entities\obj\Debug\Business.Entities.dll
+C:\Rami\AAA UTN\.NET\Trabajo Practico\TP2Lab06_v1\TP2\Business.Entities\obj\Debug\Business.Entities.pdb

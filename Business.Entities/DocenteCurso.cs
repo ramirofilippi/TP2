@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Business.Entities
 {
-    public class DoncenteCurso : BusinessEntity
+    public class DocenteCurso : BusinessEntity
     {
-        public DoncenteCurso()
+        public DocenteCurso()
         {
             this.Cargo = TiposCargos.New;
         }

@@ -1,7 +1,12 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Especialidades.aspx.cs" Inherits="UI.Web.Especialidades" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="bodyContentPlaceHolder" Runat="Server">
-    <asp:Panel ID="gridPanel" runat="server"> 
+    <asp:Panel ID="gridPanel" runat="server">
+        <asp:Label ID="Label2" runat="server" Text="Label" Visible="False"></asp:Label>
+        <br />
+        <asp:Label ID="Label1" runat="server" Text="Label" Visible="False"></asp:Label>
+        <br />
+        <asp:Label ID="Label3" runat="server" Text="Label" Visible="False"></asp:Label>
         <asp:GridView ID="gridView" runat="server" AutoGenerateColumns="False"
             SelectedRowStyle-BackColor="Black" 
             SelectedRowStyle-ForeColor="White" 

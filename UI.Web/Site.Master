@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
         <title>Academia</title>
+    <link href="Styles/master.css" rel="stylesheet" />
     </head> 
     <body> 
         <form id="bodyForm" runat="server">
@@ -9,8 +10,24 @@
             </asp:Menu> 
             <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" /> 
             <div>
+                <div id="navbar">
+                <ul>
+                    <li><a href="Default.aspx">Inicio</a></li>
+                    <li><a href="Comisiones.aspx">Comisiones</a></li>
+                    <li><a href="Cursos.aspx">Cursos</a></li>
+                    <li><a href="Especialidades.aspx">Especialidades</a></li>
+                    <li><a href="Materias.aspx">Materias</a></li>
+                    <li><a href="Personas.aspx">Personas</a></li>
+                    <li><a href="Planes.aspx">Planes</a></li>
+                </ul>
+
+            </div>
                 <asp:ContentPlaceHolder ID="bodyContentPlaceHolder" runat="server">
                 </asp:ContentPlaceHolder>
+                 <div id="footer">
+                <span>ramirofilippi@gmail.com</span>
+                <span>Whatsapp +54 341 5918 740</span>
+            </div>
             </div> 
         </form> 
     </body> 
